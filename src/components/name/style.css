@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+.ContainerName{
+  font-family: 'Delicious Handrawn', cursive;
+  background-color: #6533cb;
+  position: relative;
+  top: 126px;
+}
+
+.ContainerName__background{
+  width: 100%;
+}
+
+.ContainerName__Yula{
+  position: absolute;
+  top: -11%;
+  left: 30%;
+  font-size: 300px;
+}
