@@ -1,0 +1,15 @@
+.containerHeader{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.containerHeader__home{
+  font-size: 20px;
+  border-style: none;
+  font-family: 'Delicious Handrawn', cursive;
+  height: 40px;
+    width: 15%;
+    background-color: #6533cb;
+    border-radius: 20px;
+}

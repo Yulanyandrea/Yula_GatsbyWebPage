@@ -1,9 +1,10 @@
 import * as React from "react"
 import Home from "./home/Home"
-
+import { unset } from "lodash"
 
 const pageStyles = {
-  backgroundColor:"#9370db"
+  backgroundColor:"#9370db",
+  margin: unset
 }
 
 

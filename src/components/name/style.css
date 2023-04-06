@@ -2,7 +2,6 @@
 
 .ContainerName{
   font-family: 'Delicious Handrawn', cursive;
-  background-color: #6533cb;
   position: relative;
   top: 126px;
 }
@@ -16,4 +15,13 @@
   top: -11%;
   left: 30%;
   font-size: 300px;
+  transition: .5s, color .10s;
+      -webkit-transition: .5s, color .10s;
+      -moz-transition: .5s, color .10s;
+}
+
+.ContainerName__Yula:hover{
+  transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
 }
