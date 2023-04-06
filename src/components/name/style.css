@@ -3,17 +3,21 @@
 .ContainerName{
   font-family: 'Delicious Handrawn', cursive;
   position: relative;
-  top: 126px;
 }
 
 .ContainerName__background{
   width: 100%;
 }
 
+.containerName___elements{
+  display: flex;
+  flex-direction: row;
+}
+
 .ContainerName__Yula{
   position: absolute;
-  top: -11%;
-  left: 30%;
+  top: -25%;
+  left: 33%;
   font-size: 300px;
   transition: .5s, color .10s;
       -webkit-transition: .5s, color .10s;
@@ -25,3 +29,4 @@
       -webkit-transform: rotateY(180deg);
       -moz-transform: rotateY(180deg);
 }
+

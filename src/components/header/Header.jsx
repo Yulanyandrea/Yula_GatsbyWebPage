@@ -1,11 +1,12 @@
 import * as React from 'react';
-import music from '../../images/musica.png'
+import note from '../../images/note.png';
 import './style.css';
 
 const Header = () => {
   return (
     <nav className="containerHeader">
-      <img src={music} alt="" className="containerHeader__musicLogo" />
+      <img src={note} alt="" className="ContainerHeader__note" />
+      <h3 className="containerHeader__company">Eunoia Sound</h3>
       <button className="containerHeader__home">Home</button>
       <button className="containerHeader__home">About</button>
       <button className="containerHeader__home">software development</button>

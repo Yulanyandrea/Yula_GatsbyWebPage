@@ -2,6 +2,15 @@
   display: flex;
   justify-content: space-evenly;
   font-size: 20px;
+  background-color: #6533cb;
+  align-items: center;
+}
+
+.ContainerHeader__note{
+  height: 55px;
+  position: relative;
+  top: 9px;
+  width: 5%;
 }
 
 .containerHeader__home{

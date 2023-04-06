@@ -5,7 +5,12 @@ const Name = () => {
   return (
     <main className="ContainerName">
       <img src="./images/background.jpg" alt="" className="ContainerName__background" />
-      <h1 className="ContainerName__Yula">Yula</h1>
+      <section className="containerName___elements">
+        <h1 className="ContainerName__Yula">Yula</h1>
+
+      </section>
+
+
     </main>
   )
 }
