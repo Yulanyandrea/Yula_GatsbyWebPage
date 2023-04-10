@@ -7,6 +7,10 @@
 
 .ContainerName__background{
   width: 100%;
+  border-top-left-radius: 400px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 259px;
+  border-bottom-right-radius: 300px;
 }
 
 .containerName___elements{

@@ -13,6 +13,10 @@
   width: 5%;
 }
 
+.ContainerHeader__note--two{
+  height: 37px;
+}
+
 .containerHeader__home{
   font-size: 20px;
   border-style: none;
