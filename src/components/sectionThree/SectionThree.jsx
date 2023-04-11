@@ -1,6 +1,6 @@
 import * as React from 'react';
-import nft from '../../images/nft.jpg'
-import jyk from '../../images/jyk.jpg'
+import nft from '../../images/nft.ico'
+import jyk from '../../images/jyk.jpeg'
 import amasa from '../../images/amasa.png'
 import './style.css';
 
