@@ -9,7 +9,7 @@ const SectionTwo = () => {
         <p className="sectionTwo__paragraph--text">Hellooooo!
           I'm Yulany and I'm a sound engineer and fullstack Javascript software developer.
           I love turning ideas into web applications. Besides, I think that music can be turned into
-          great applications to converge art and technology. Usually, I develop React, Gatsby, Typescript
+          great applications to converge art and technology. Usually, I develop in React, Gatsby, Typescript
           Express, GraphQl, Mongo DB and Pure data.
         </p>
       </section>

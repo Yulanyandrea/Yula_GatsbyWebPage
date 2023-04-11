@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&display=swap');
+
+
+.containerSectionThree{
+  background-color: #9370db;
+  padding: 20px;
+}
+
+.containerSectionThree__title{
+  font-family: 'DynaPuff', cursive;
+  font-size: 55px;
+  color:#69ff8f;
+  padding: 35px;
+}
+
+.containerSectionThree__paragraph{
+  font-family: 'Nunito', sans-serif;
+  font-size: 23px;
+  padding-left: 38px;
+}
+
+.containerSectionThree__work{
+  display: flex;
+    flex-direction: row;
+}
+
+.containerSectionThree__work--nft{
+  font-family: 'Nunito', sans-serif;
+  padding-left: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerSeectionThree__work--image{
+  border-radius: 181px;
+  height: 164px;
+  width: 54%;
+  border-style: ridge;
+}
+
+.containerSectionThree__work--nftText{
+  display: flex;
+  width: 75%;
+  margin: unset;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.containerSectionThree__work--button{
+  width: 50%;
+  height: 37px;
+  border-radius: 29px;
+  border-style: none;
+}

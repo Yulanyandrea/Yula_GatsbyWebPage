@@ -2,6 +2,7 @@ import * as React from 'react';
 import Name from '../../components/name/Name';
 import Header from '../../components/header/Header';
 import SectionTwo from '../../components/sectionTwo/SectionTwo';
+import SectionThree from '../../components/sectionThree/SectionThree';
 import './style.css';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Header/>
        <Name />
        <SectionTwo/>
+       <SectionThree />
 
     </section>
 
