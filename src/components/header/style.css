@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&display=swap');
+
+
 .containerHeader{
   display: flex;
   justify-content: space-evenly;
@@ -18,9 +21,10 @@
 }
 
 .containerHeader__home{
-  font-size: 20px;
+  font-size: 15px;
   border-style: none;
-  font-family: 'Delicious Handrawn', cursive;
+  font-family: 'DynaPuff', cursive;
+  /* font-family: 'Delicious Handrawn', cursive; */
   height: 40px;
     width: 15%;
     background-color: #6533cb;

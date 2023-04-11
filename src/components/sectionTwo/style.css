@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+.sectionTwo{
+  background-color: #eb4c4a;
+  font-family: 'DynaPuff', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.sectionTwo__about{
+  font-size: 98px;
+  color:#69ff8f;
+}
+
+.sectionTwo__paragraph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.sectionTwo__paragraph--text{
+  font-size: 23px;
+  font-family: 'Nunito', sans-serif;
+}
