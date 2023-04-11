@@ -33,10 +33,18 @@
   justify-content: center;
 }
 
-.containerSeectionThree__work--image{
+.containerSeectionThree__work--img{
   border-radius: 111px;
   height: 186px;
   width: 60%;
+  border-style: ridge;
+  object-fit: contain;
+}
+
+.containerSeectionThree__work--image{
+  border-radius: 111px;
+  height: 186px;
+  width: 57%;
   border-style: ridge;
 }
 
@@ -49,8 +57,13 @@
 }
 
 .containerSectionThree__work--button{
-  max-width: 38%;
+  width: 50%;
+  max-width: 50%;
   height: 37px;
   border-radius: 29px;
   border-style: none;
+}
+
+.containerSectionThree__work--button:hover{
+  background-color: #6bffb5;
 }
