@@ -1,11 +1,13 @@
 import * as React from 'react';
 import note from '../../images/note.png';
-import music from '../../images/music.png'
+import music from '../../images/music.png';
+import Background from '../background/Background';
 import './style.css';
 
 const Header = () => {
   return (
     <nav className="containerHeader">
+      <Background />
       <img src={note} alt="" className="ContainerHeader__note" />
       <img src={music} alt="" className="ContainerHeader__note--two" />
       <button className="containerHeader__home">Home</button>
