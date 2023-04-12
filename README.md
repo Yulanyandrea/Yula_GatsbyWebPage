@@ -1,2 +1,2 @@
-# Yula_GastbyWebPage
+# Yula_GatsbyWebPage
 This is my personal web site 
