@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&display=swap');
+
+
+.sectionFour{
+  background-color: #ff5a1d;
+  font-family: 'DynaPuff', cursive;
+  font-family: 'Nunito', sans-serif;
+}
+
+.sectionFour__title{
+  font-family: 'DynaPuff', cursive;
+  font-size: 55px;
+  color:#69ff8f;
+  padding: 35px;
+  padding-top: 100px;
+}
+
+.sectionFour__projects{
+  display:flex;
+  align-items: center;
+  padding-left: 46px;
+}
+
+.sectionFour__projectOne--img{
+  width: 70%;
+}
+
+.sectionFour__projectOne--paragraph{
+  width: 70%;
+}
+
+.sectionFour__btn{
+  width: 50%;
+  max-width: 50%;
+  height: 37px;
+  border-radius: 29px;
+  border-style: none;
+}
+
+.sectionFour__btn:hover{
+  background-color: #6bffb5;
+}

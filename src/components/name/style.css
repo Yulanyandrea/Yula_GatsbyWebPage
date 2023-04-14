@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
 
 .ContainerName{
-  font-family: 'Delicious Handrawn', cursive;
+  /* font-family: 'Delicious Handrawn', cursive; */
+  font-family: 'Inspiration', cursive;
   position: relative;
   background-color: #77c077;
   height: 671px;
@@ -31,8 +33,8 @@
 }
 
 .ContainerName__Yula:hover{
-  transform: rotateY(180deg);
-      -webkit-transform: rotateY(180deg);
-      -moz-transform: rotateY(180deg);
-}
+  transform: scale3d(1.5, 1.5, 0.3);
+      -webkit-transform: scale3d(1.5, 1.5, 0.3);
+      -moz-transform: scale3d(1.5, 1.5, 0.3);
 
+}
