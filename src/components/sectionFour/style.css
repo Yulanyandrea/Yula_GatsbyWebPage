@@ -4,7 +4,6 @@
 
 .sectionFour{
   background-color: #ff5a1d;
-  font-family: 'DynaPuff', cursive;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -20,6 +19,7 @@
   display:flex;
   align-items: center;
   padding-left: 46px;
+  padding-bottom: 64px;
 }
 
 .sectionFour__projectOne--img{

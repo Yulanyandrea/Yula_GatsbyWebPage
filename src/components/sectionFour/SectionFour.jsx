@@ -24,7 +24,7 @@ const SectionFour = () => {
   };
 
   return (
-    <main className="sectionFour">
+    <main className="sectionFour" id="sectionFour">
       <h1 className="sectionFour__title">Sound Design</h1>
       <section className="sectionFour__projects">
         <section className="sectionFour__projectOne">
