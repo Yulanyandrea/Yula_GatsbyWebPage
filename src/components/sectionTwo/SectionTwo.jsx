@@ -4,7 +4,7 @@ import './style.css';
 const SectionTwo = () => {
   return (
     <main className="sectionTwo">
-      <h1 className="sectionTwo__about">About</h1>
+      <h1 className="sectionTwo__about">About Me</h1>
       <section className="sectionTwo__paragraph">
         <p className="sectionTwo__paragraph--text">Hellooooo!
           I'm Yulany and I'm a sound engineer and fullstack Javascript software developer.

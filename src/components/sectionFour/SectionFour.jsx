@@ -51,7 +51,7 @@ const SectionFour = () => {
         <section className="sectionFour__projectOne">
           <img src={film} alt="" className="sectionFour__projectOne--img" />
           <p className="sectionFour__projectOne--paragraph">"Esto tambien pasará" is a film create around 2015 all the process was done in Protools
-          an tries to envolve the viewers in a confusing situaion.</p>
+          and tries to envolve the viewers in a confusing situaion.</p>
           <button className="sectionFour__btn" onClick={handleVideoFilm}>view video</button>
         </section>
 
