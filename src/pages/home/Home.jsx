@@ -6,6 +6,7 @@ import SectionThree from '../../components/sectionThree/SectionThree';
 import Background from '../../components/background/Background';
 import SectionFour from '../../components/sectionFour/SectionFour';
 import SectionFive from '../../components/sectionFive/SectionFive';
+import Footer from '../../components/footer/Footer';
 import './style.css';
 
 const Home = () => {
@@ -20,6 +21,8 @@ const Home = () => {
        <SectionThree />
        <SectionFour />
        <SectionFive />
+      <Footer />
+
 
     </section>
 

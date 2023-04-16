@@ -1,0 +1,13 @@
+.footer{
+  background-color: #fcff50;
+  display: flex;
+  justify-content: center;
+  border-radius: 25% 42% 0 0;
+
+}
+
+.footer__img{
+  width: 33px;
+  height: 30px;
+  padding-top: 14px;
+}
