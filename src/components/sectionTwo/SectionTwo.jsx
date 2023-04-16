@@ -5,9 +5,6 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './style.css';
 
 const SectionTwo = () => {
-  // const handleLinkedin = () => {
-  //   window.open('https://www.linkedin.com/in/yulanymunevar/','_blank')
-  // }
   return (
     <main className="sectionTwo" id="sectionTwo">
       <h1 className="sectionTwo__about">About Me</h1>
