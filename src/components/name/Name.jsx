@@ -3,7 +3,7 @@ import './style.css';
 
 const Name = () => {
   return (
-    <main className="ContainerName" id="sectionName">
+    <main className="ContainerName" id="name">
       <img src="./images/background.jpg" alt="" className="ContainerName__background" />
       <section className="containerName___elements">
         <h1 className="ContainerName__Yula">Yula</h1>

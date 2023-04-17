@@ -6,7 +6,7 @@ import './style.css';
 
 const SectionTwo = () => {
   return (
-    <main className="sectionTwo" id="sectionTwo">
+    <main className="sectionTwo" id="about">
       <h1 className="sectionTwo__about">About Me</h1>
       <section className="sectionTwo__paragraph">
         <p className="sectionTwo__paragraph--text">Hellooooo!
