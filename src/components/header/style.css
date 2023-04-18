@@ -35,3 +35,7 @@
 .containerHeader__home:hover{
   background-color: #6bffb5;
 }
+
+@media(max-width:576px){
+
+}

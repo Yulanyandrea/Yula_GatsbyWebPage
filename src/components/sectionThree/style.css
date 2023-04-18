@@ -67,3 +67,30 @@
 .containerSectionThree__work--button:hover{
   background-color: #6bffb5;
 }
+
+@media(max-width:576px){
+  .containerSectionThree{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerSectionThree__work{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerSectionThree__work--nft{
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .containerSeectionThree__work--img{
+    height: 242px;
+    width: 36%;
+  }
+
+  .containerSeectionThree__work--image{
+    height: 242px;
+    width: 36%;
+  }
+}
