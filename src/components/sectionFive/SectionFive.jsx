@@ -10,11 +10,11 @@ const SectionFive = () => {
         <label htmlFor="myInput" className="sectionFive__message--label">Full name</label>
         <input type="text" className="sectionFive__fullname" />
         <label htmlFor="myInput" className="sectionFive__message--label">Email</label>
-        <input type="text" className="sectionFive__fullname" />
+        <input type="email" className="sectionFive__fullname" />
         <label htmlFor="myInput" className="sectionFive__message--label">Subject</label>
         <input type="text" className="sectionFive__fullname" />
         <label htmlFor="myInput" className="sectionFive__message--label">Your message</label>
-        <input type="text"  className="sectionFive__message--input" />
+        <textarea type="text"  className="sectionFive__message--input" />
         <button className="sectionFive__btn">Send</button>
 
       </section>
