@@ -2,32 +2,41 @@ import * as React  from 'react';
 import note from '../../images/note.png';
 import music from '../../images/music.png';
 import Background from '../background/Background';
-import { navigate } from 'gatsby';
 import './style.css';
 
 const Header = () => {
   const handleHome = () => {
-    navigate('#name')
+    scrollToSection('#name')
   };
 
   const handleAbout = () => {
-    navigate('#about')
+    scrollToSection('#about')
     // sectionTwo
   };
 
   const handleSoftware = () => {
-    navigate('#SoftwareDevelopment')
+    scrollToSection('#SoftwareDevelopment')
     //sectionThree
   };
 
   const handleSound = () => {
-    navigate('#SoundDesign')
+    scrollToSection('#SoundDesign')
     //sectionFour
   };
 
   const handleContact = () => {
-    navigate('#ContactMe');
+    scrollToSection('#ContactMe');
     //sectionFive
+  };
+
+  const scrollToSection = (sectionId) => {
+    const target = document.querySelector(sectionId);
+    if (target) {
+      window.scrollTo({
+        top: target.offsetTop,
+        behavior: 'smooth',
+      });
+    }
   };
   return (
     <nav className="containerHeader">
