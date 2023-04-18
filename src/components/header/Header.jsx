@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React  from 'react';
 import note from '../../images/note.png';
 import music from '../../images/music.png';
 import Background from '../background/Background';

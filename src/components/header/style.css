@@ -6,8 +6,9 @@
   display: flex;
   justify-content: space-evenly;
   font-size: 20px;
-  /* background-color: #6533cb; */
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 .ContainerHeader__note{

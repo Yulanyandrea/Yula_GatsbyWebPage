@@ -14,6 +14,8 @@ const Home = () => {
     <section className="container">
       <Header/>
        <Background />
+
+
        <Name />
        <Background />
 

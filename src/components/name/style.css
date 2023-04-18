@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
 
 .ContainerName{
-  /* font-family: 'Delicious Handrawn', cursive; */
   font-family: 'Inspiration', cursive;
-  position: relative;
   background-color: #77c077;
   height: 671px;
 }
