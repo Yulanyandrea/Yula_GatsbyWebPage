@@ -1,5 +1,7 @@
 import * as React from "react"
+import { Helmet } from 'react-helmet';
 import Home from "./home/Home"
+import icon from '../images/icon.ico'
 import { unset } from "lodash"
 
 const pageStyles = {
@@ -11,6 +13,11 @@ const pageStyles = {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+       <Helmet>
+          <link rel="icon" href={icon} type="image/x-icon" />
+          <link rel="shortcut icon" href={icon} type="image/x-icon" />
+       </Helmet>
+
       <Home/>
     </main>
   )
@@ -18,4 +25,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Eunoia Sound</title>
+export const Head = () => <title>Welcome to Yulany's web site</title>
