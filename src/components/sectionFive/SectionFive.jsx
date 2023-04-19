@@ -4,8 +4,7 @@ import './style.css';
 const SectionFive = () => {
 
   return (
-    <form className="sectionFive" id="ContactMe" method="POST" data-netlify="true">
-       <input type="hidden" name="subject" value="Sales inquiry from yulany-andrea.netlify.app" />
+    <form name="contact" className="sectionFive" id="ContactMe" method="POST" data-netlify="true">
         <h1 className="sectionFive__title">Contact Me</h1>
         <p className="sectionFive__info">Please fill you information if you want to ask or say something</p>
         <section className="sectionFive__message">
