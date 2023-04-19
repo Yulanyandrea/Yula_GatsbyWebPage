@@ -37,13 +37,28 @@
 
 }
 
-@media(max-width:576px){
-.ContainerName__background{
-  height: 82%;
+@media screen and (min-width: 300px) and (max-width: 576px){
+  .ContainerName__background{
+    height: 82%;
+  }
+
+  .ContainerName__Yula{
+    top: -19%;
+    left: 45%;
+  }
 }
 
-.ContainerName__Yula{
-  top: -19%;
-  left: 45%;
-}
+@media screen and (min-width: 577px) and (max-width: 767px)  {
+  .ContainerName{
+    height: 547px;
+  }
+
+  .ContainerName__background{
+    height: 511px;
+  }
+
+  .ContainerName__Yula{
+    top: -21%;
+    left: 26%;
+  }
 }
