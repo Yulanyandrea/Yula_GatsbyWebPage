@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { useState } from 'react';
 import { navigate } from 'gatsby-link'
+import page from '../../pages/thanks/Thanks'
 import './style.css';
 
 const SectionFive = () => {
@@ -32,7 +33,7 @@ const SectionFive = () => {
         ...formData,
       }),
     })
-      .then(() => navigate('#thanks'))
+      .then(() => navigate(form.getAttribute('action')))
       .catch((error) => alert(error))
   };
 
@@ -42,7 +43,7 @@ const SectionFive = () => {
         className="sectionFive"
         id="ContactMe"
         method="post"
-        // action="/pages/Thanks"
+        action={page}
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}>
