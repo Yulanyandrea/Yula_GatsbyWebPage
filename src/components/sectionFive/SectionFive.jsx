@@ -10,20 +10,26 @@ const SectionFive = () => {
     mensaje: '',
   });
 
+  const  encode = (data) => {
+    return Object.keys(data)
+      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+      .join('&')
+  }
+
   const handleInputChange = ({target}) => {
     const key = target.name;
     setFormData({ ...formData, [key]: target.value });
   };
 
   const handleSubmit = (event) => {
-    e.preventDefault()
-    const form = e.target
+    event.preventDefault()
+    const form = event.target
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
         'form-name': form.getAttribute('name'),
-        ...state,
+        ...formData,
       }),
     })
       .then(() => navigate(form.getAttribute('action')))
