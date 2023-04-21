@@ -9,11 +9,9 @@ const SectionFive = () => {
     mensaje: '',
   });
 
-  const handleInputChange = (event) => {
-    const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-    const name = target.name;
-    setFormData({ ...formData, [name]: value });
+  const handleInputChange = ({target}) => {
+    const key = target.name;
+    setFormData({ ...formData, [key]: target.value });
   };
 
   const handleSubmit = (event) => {
