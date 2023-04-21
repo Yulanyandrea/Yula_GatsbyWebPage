@@ -104,3 +104,13 @@
   background-color: #64edbc;
   color: black;
 }
+
+@media(max-width:567px){
+  input:focus {
+    zoom: 200%;
+  }
+
+  textarea:focus{
+    zoom:200%
+  }
+}

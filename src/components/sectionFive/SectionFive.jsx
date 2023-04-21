@@ -53,7 +53,7 @@ const SectionFive = () => {
         <p className="sectionFive__info">Please fill you information if you want to ask or say something</p>
         <section className="sectionFive__message">
           <label htmlFor="myInput" className="sectionFive__message--label" >Full name</label>
-          <input type="text" name="fullname" className="sectionFive__fullname"  onChange={handleInputChange}  />
+          <input type="text" name="fullname" className="sectionFive__fullname"    onChange={handleInputChange}  />
           <label htmlFor="myInput" className="sectionFive__message--label">Email</label>
           <input type="email" name="email" className="sectionFive__fullname" onChange={handleInputChange}  />
           <label htmlFor="myInput" className="sectionFive__message--label">Subject</label>
