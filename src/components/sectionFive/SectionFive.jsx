@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
+import {navigate } from 'gatsby';
 import './style.css';
 
 const SectionFive = () => {
@@ -15,18 +16,18 @@ const SectionFive = () => {
   };
 
   const handleSubmit = (event) => {
-    event.preventDefault();
-
-    const myForm = event.target;
-    const formData = new FormData(myForm);
-
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
+    e.preventDefault()
+    const form = e.target
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...state,
+      }),
     })
-      .then(() => alert("Thank you for your submission"))
-      .catch((error) => alert(error));
+      .then(() => navigate(form.getAttribute('action')))
+      .catch((error) => alert(error))
   };
 
 
@@ -34,9 +35,13 @@ const SectionFive = () => {
     <form name="contact"
         className="sectionFive"
         id="ContactMe"
-        method="POST"
+        method="post"
+        action="/thanks/"
         data-netlify="true"
+        data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}>
+         <input type="hidden" name="form-name" value="contact" />
+
 
         <h1 className="sectionFive__title">Contact Me</h1>
         <p className="sectionFive__info">Please fill you information if you want to ask or say something</p>
