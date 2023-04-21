@@ -18,16 +18,19 @@ const SectionFive = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const form = event.target;
-    const data = new FormData(form);
 
-    fetch('/', {
-      method: 'POST',
-      body: data,
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
     })
-      .then(() => alert('Gracias por tu mensaje!'))
+      .then(() => navigate("/thank-you/"))
       .catch((error) => alert(error));
   };
+
 
   return (
     <form name="contact"
