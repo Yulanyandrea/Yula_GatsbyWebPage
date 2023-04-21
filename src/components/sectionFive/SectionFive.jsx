@@ -27,7 +27,7 @@ const SectionFive = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => navigate("/thank-you/"))
+      .then(() => alert("Thank you for your submission"))
       .catch((error) => alert(error));
   };
 
