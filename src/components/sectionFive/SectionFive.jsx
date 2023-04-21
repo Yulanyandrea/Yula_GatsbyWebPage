@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
-import {navigate } from 'gatsby';
+import { navigate } from 'gatsby';
 import './style.css';
 
 const SectionFive = () => {
@@ -10,7 +10,7 @@ const SectionFive = () => {
     mensaje: '',
   });
 
-  const  encode = (data) => {
+  function encode(data) {
     return Object.keys(data)
       .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
       .join('&')
