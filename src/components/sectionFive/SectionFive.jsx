@@ -32,7 +32,7 @@ const SectionFive = () => {
         ...formData,
       }),
     })
-      .then(() => navigate(form.getAttribute('action')))
+      .then(() => navigate('#thanks'))
       .catch((error) => alert(error))
   };
 
@@ -42,7 +42,7 @@ const SectionFive = () => {
         className="sectionFive"
         id="ContactMe"
         method="post"
-        action="/pages/Thanks"
+        // action="/pages/Thanks"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}>
