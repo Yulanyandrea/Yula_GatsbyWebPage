@@ -105,12 +105,24 @@
   color: black;
 }
 
-@media(max-width:567px){
-  input:focus {
+@media screen and (min-width: 300px) and (max-width: 576px){
+  .sectionFive__fullname:focus {
     zoom: 200%;
   }
 
-  textarea:focus{
+  .sectionFive__message--input:focus{
     zoom:200%
+  }
+
+  .sectionFive__info{
+    font-size: 30px;
+  }
+
+  .sectionFive__message--label{
+    font-size: 30px;
+  }
+
+  .sectionFive__btn{
+    font-size: 20px;
   }
 }

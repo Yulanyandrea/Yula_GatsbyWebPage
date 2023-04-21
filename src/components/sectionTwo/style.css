@@ -47,3 +47,13 @@
 .sectionTwo__socialMedia--icon{
   height: 38px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 576px){
+  .sectionTwo__paragraph--text{
+    font-size: 30px;
+  }
+
+  .sectionTwo__profilePicture{
+    width: 41%;
+  }
+}

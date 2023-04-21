@@ -36,6 +36,6 @@
   background-color: #6bffb5;
 }
 
-@media(max-width:576px){
+@media screen and (min-width: 300px) and (max-width: 576px){
 
 }

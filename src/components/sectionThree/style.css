@@ -68,7 +68,7 @@
   background-color: #6bffb5;
 }
 
-@media(max-width:576px){
+@media screen and (min-width: 300px) and (max-width: 576px) {
   .containerSectionThree{
     display: flex;
     flex-direction: column;
@@ -86,11 +86,20 @@
 
   .containerSeectionThree__work--img{
     height: 242px;
-    width: 36%;
+    width: 35%;
   }
 
   .containerSeectionThree__work--image{
     height: 242px;
-    width: 36%;
+    width: 35%;
+  }
+
+  .containerSectionThree__work--nftText{
+    font-size: 30px;
+
+  }
+
+  .containerSectionThree__work--button{
+    font-size: 20px;
   }
 }
