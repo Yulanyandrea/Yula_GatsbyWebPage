@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 
-const Thanks = () => {
+const thanks = () => {
   return (
     <main className="thanksSection" id="thanks">
       <h2 className="thanks Section">Thank you </h2>
@@ -11,4 +11,4 @@ const Thanks = () => {
   )
 }
 
-export default Thanks;
+export default thanks;

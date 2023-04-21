@@ -42,7 +42,7 @@ const SectionFive = () => {
         className="sectionFive"
         id="ContactMe"
         method="post"
-        action="/thank-you/"
+        action="/thanks/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}>
