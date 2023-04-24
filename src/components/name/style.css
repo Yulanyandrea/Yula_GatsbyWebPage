@@ -48,7 +48,7 @@
   }
 }
 
-@media screen and (min-width: 577px) and (max-width: 767px)  {
+@media  (min-width: 576px) and (max-width: 769px)  {
   .ContainerName{
     height: 547px;
   }
@@ -57,4 +57,19 @@
     top: -21%;
     left: 26%;
   }
+
+  .ContainerName__background{
+    height: 104%;
+  }
+}
+
+@media(min-width: 1440px){
+  .ContainerName__Yula{
+    top: -14%;
+  }
+
+  .ContainerName__background{
+    height: 100%;
+  }
+
 }
