@@ -116,6 +116,18 @@
   }
 }
 
+@media  (min-width: 769px) and (max-width: 991px){
+  .containerSectionThree__work{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .containerSectionThree__work--nft{
+    width: 50%;
+    padding-bottom: 12px;
+  }
+}
+
 @media(min-width: 1440px){
   .containerSectionThree__work--nft{
     align-items: center;

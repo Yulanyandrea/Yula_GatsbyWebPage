@@ -65,7 +65,7 @@
   }
 }
 
-@media  (min-width: 576px) and (max-width: 769px){
+@media  (min-width: 576px) and (max-width: 991px){
   .sectionFour__projects{
     flex-direction: column;
   }
@@ -77,3 +77,4 @@
     padding-bottom: 18px;
   }
 }
+
