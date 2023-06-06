@@ -15,7 +15,7 @@ const SectionThree = () => {
   };
 
   const handleClickAmasa = () => {
-    window.open('https://amasa-milhojeria-frontend.vercel.app/','blank');
+    window.open('https://amasa-milhojeria-frontend-part-b.vercel.app/','blank');
   }
 
   return (
