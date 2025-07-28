@@ -1,24 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&display=swap');
+
+
 .containerHeader{
+  background-color: #77c077;
   display: flex;
   justify-content: space-evenly;
   font-size: 20px;
-  background-color: #6533cb;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 .ContainerHeader__note{
-  height: 55px;
   position: relative;
-  top: 9px;
   width: 5%;
+  height: 31px;
+  width: 34px;
+}
+
+.ContainerHeader__note--two{
+  height: 37px;
 }
 
 .containerHeader__home{
-  font-size: 20px;
+  font-size: 15px;
   border-style: none;
-  font-family: 'Delicious Handrawn', cursive;
+  font-family: 'DynaPuff', cursive;
   height: 40px;
-    width: 15%;
-    background-color: #6533cb;
-    border-radius: 20px;
+  width: 15%;
+  border-radius: 20px;
+  background-color: #77c077;
+}
+
+.containerHeader__home:hover{
+  background-color: #6bffb5;
+}
+
+@media screen and (min-width: 300px) and (max-width: 576px){
+
 }

@@ -1,5 +1,12 @@
-body{
-  background-color: #9370db;
+/* body{
   font-family: 'Delicious Handrawn', cursive;
   margin: unset;
+  background-color: #9370db;
 }
+
+@media(max-width:576px){
+  .container{
+    width: 203%;
+    box-sizing: border-box;
+  }
+} */

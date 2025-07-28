@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Doto:wght@100..900&family=Shadows+Into+Light&display=swap");
+
+$font-title: "Comforter", cursive;
+$primary-color: #000409;
+$font-title-color: #f7ebeb;
+$display-content: column;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: $primary-color;
+}
+
+body {
+  font: 100% $font-title;
+  color: $font-title-color;
+  height: 100%;
+}
+
+.container {
+  display: $display-content;
+  justify-content: center;
+}

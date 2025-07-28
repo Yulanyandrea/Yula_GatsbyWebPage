@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
 
 .ContainerName{
-  font-family: 'Delicious Handrawn', cursive;
-  position: relative;
+  font-family: 'Inspiration', cursive;
+  background-color: #77c077;
+  height: 671px;
 }
 
 .ContainerName__background{
   width: 100%;
+  border-top-left-radius: 400px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 259px;
+  border-bottom-right-radius: 300px;
 }
 
 .containerName___elements{
@@ -25,8 +31,57 @@
 }
 
 .ContainerName__Yula:hover{
-  transform: rotateY(180deg);
-      -webkit-transform: rotateY(180deg);
-      -moz-transform: rotateY(180deg);
+  transform: scale3d(1.5, 1.5, 0.3);
+      -webkit-transform: scale3d(1.5, 1.5, 0.3);
+      -moz-transform: scale3d(1.5, 1.5, 0.3);
+
 }
 
+@media screen and (min-width: 300px) and (max-width: 576px){
+  .ContainerName__background{
+    height: 82%;
+  }
+
+  .ContainerName__Yula{
+    top: -19%;
+    left: 45%;
+  }
+}
+
+@media  (min-width: 576px) and (max-width: 769px)  {
+  .ContainerName{
+    height: 547px;
+  }
+
+  .ContainerName__Yula{
+    top: -21%;
+    left: 26%;
+  }
+
+  .ContainerName__background{
+    height: 104%;
+  }
+}
+
+@media  (min-width: 769px) and (max-width: 991px){
+  .ContainerName__background{
+    height: 105%;
+  }
+
+  .ContainerName__Yula{
+    top: -12%;
+    left: 27%;
+  }
+
+}
+
+@media(min-width: 1440px){
+  .ContainerName__Yula{
+    top: -14%;
+  }
+
+  .ContainerName__background{
+    height: 100%;
+  }
+
+} */

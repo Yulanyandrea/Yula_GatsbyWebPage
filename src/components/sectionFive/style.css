@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&display=swap');
+
+
+.sectionFive{
+  background-color:#ff6ad7 ;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.sectionFive__info{
+  padding-left: 42px;
+  font-size: 24px;
+}
+
+.sectionFive__title{
+  font-family: 'DynaPuff', cursive;
+  font-size: 55px;
+  color:#69ff8f;
+  padding: 70px 35px 35px;
+
+}
+
+.sectionFive__message{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 30px;
+  padding-bottom: 100px;
+}
+
+
+.sectionFive__message--label{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.sectionFive__fullname{
+  height: 38px;
+  border-radius: 15px;
+  border-style: none;
+}
+
+.sectionFive__message--input{
+  height: 300px;
+  text-indent: 0;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.sectionFive__btn{
+  width: 50%;
+  max-width: 50%;
+  height: 37px;
+  border-radius: 29px;
+  border-style: none;
+  position: relative;
+  top: 37px;
+  height: 45px;
+}
+
+.sectionFive__btn:hover{
+  background-color: #6bffb5;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #002c58ca;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+}
+
+.modal__text{
+  color: black;
+  padding: 10px;
+}
+
+.modal__button{
+  width: 50%;
+  height: 37px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #002c58ca;
+  color:white;
+}
+
+.modal__button:hover{
+  background-color: #64edbc;
+  color: black;
+}
+
+@media screen and (min-width: 300px) and (max-width: 576px){
+  .sectionFive__info{
+    font-size: 30px;
+  }
+
+  .sectionFive__message--label{
+    font-size: 30px;
+  }
+
+  .sectionFive__btn{
+    font-size: 20px;
+  }
+}
