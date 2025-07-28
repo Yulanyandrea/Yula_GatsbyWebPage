@@ -12,10 +12,12 @@ $display-grid: 1fr 1fr 1fr;
 $button-border: none;
 $button-width: 100%;
 $content-aligment: space-evenly;
+$button-high: fit-content;
 
 nav {
   border-radius: $border-button;
   display: $display-section;
+  width: 98%;
 
   button {
     background: $color-background;
@@ -23,11 +25,18 @@ nav {
     padding: $margin-elements;
     border-radius: $border-button;
     border: none;
-    border-block-color: $button-border;
     width: $button-width;
     justify-content: $content-aligment;
+    height: $button-high;
+
+    &:hover {
+      background-color: #7d45b0;
+    }
   }
 }
 
 @media (min-width: 1440px) {
+  nav {
+    width: $button-width;
+  }
 }

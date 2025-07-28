@@ -6,17 +6,16 @@ $font-title-color: #f7ebeb;
 $display-content: column;
 $aligment: center;
 
-* {
+*,
+body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: $primary-color;
-}
-
-body {
+  //height: 100vh;
   font: 100% $font-title;
   color: $font-title-color;
-  height: 100%;
+  //width: 100vh;
 }
 
 .container {
