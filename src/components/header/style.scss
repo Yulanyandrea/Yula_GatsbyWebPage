@@ -1,33 +1,42 @@
 $color-background: linear-gradient(
-  90deg,
-  rgba(2, 0, 36, 1) 0%,
-  rgba(96, 67, 156, 1) 48%,
-  rgba(47, 0, 255, 0.38) 100%
+  112deg,
+  rgba(98, 70, 143, 1) 0%,
+  rgba(106, 75, 145, 1) 70%,
+  rgba(168, 118, 163, 1) 100%
 );
 $color-font: white;
 $margin-elements: 10px;
 $border-button: 20px;
 $display-section: flex;
 $display-grid: 1fr 1fr 1fr;
-$button-border: mediumpurple;
-$button-width: fit-content;
+$button-border: none;
+$button-width: 100%;
+$content-aligment: space-evenly;
+$button-high: fit-content;
 
 nav {
-  //   position: absolute;
-  //   z-index: 2;
   border-radius: $border-button;
   display: $display-section;
-  //   grid-template-columns: repeat(2, 1fr);
-  //   grid-template-rows: repeat(1, 1fr);
-  //   grid-column-gap: 7px;
-  //   grid-row-gap: 14px;
+  width: 98%;
 
   button {
     background: $color-background;
     color: $color-font;
     padding: $margin-elements;
     border-radius: $border-button;
-    border-block-color: $button-border;
+    border: none;
+    width: $button-width;
+    justify-content: $content-aligment;
+    height: $button-high;
+
+    &:hover {
+      background-color: #7d45b0;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  nav {
     width: $button-width;
   }
 }

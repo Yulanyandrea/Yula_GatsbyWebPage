@@ -3,7 +3,7 @@
   width: 31.25em;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 67%;
   left: 50%;
   perspective: 50em;
 }
@@ -198,7 +198,7 @@
   position: absolute;
   height: 0.62em;
   width: 2.5em;
-  background-color: #181758;
+  background-color: #e3e2e8;
   transform: scale(0.2);
   top: 6.25em;
   left: 15.62em;
@@ -215,17 +215,17 @@
   content: "";
   height: 2.5em;
   width: 0.62em;
-  background-color: #181758;
-  box-shadow: 2.5em 0 #181758;
+  background-color: #e7e7ef;
+  box-shadow: 2.5em 0 #e6e6ee;
 }
 .music-note:after {
   position: absolute;
   content: "";
   height: 0.93em;
   width: 0.93em;
-  background-color: #181758;
+  background-color: #e4e4eb;
   border-radius: 50%;
   top: 1.87em;
   left: -0.31em;
-  box-shadow: 2.5em 0 #181758;
+  box-shadow: 2.5em 0 #e2e2e7;
 }

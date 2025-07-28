@@ -4,6 +4,7 @@ import Header from "../../components/header/Header";
 import Background from "../../components/background/Background";
 import Name from "../../components/name/Name";
 import "./style.scss";
+import SectionTwo from "../../components/sectionTwo/SectionTwo";
 
 const Home = () => {
   return (

@@ -39,14 +39,11 @@ const Header = () => {
   };
   return (
     <nav className="containerHeader">
-      <button className="containerHeader__home" onClick={handleHome}>
-        Home
-      </button>
       <button className="containerHeader__home" onClick={handleAbout}>
         About
       </button>
       <button className="containerHeader__home" onClick={handleSoftware}>
-        software development
+        Software development
       </button>
       <button className="containerHeader__home" onClick={handleSound}>
         Sound Design
