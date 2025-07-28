@@ -46,7 +46,7 @@ const Header = () => {
         About
       </button>
       <button className="containerHeader__home" onClick={handleSoftware}>
-        software development
+        Software development
       </button>
       <button className="containerHeader__home" onClick={handleSound}>
         Sound Design
