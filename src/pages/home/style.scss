@@ -3,6 +3,7 @@
 $font-title: "Comforter", cursive;
 $primary-color: #000409;
 $font-title-color: #f7ebeb;
+$display-content: column;
 
 * {
   box-sizing: border-box;
@@ -15,4 +16,9 @@ body {
   font: 100% $font-title;
   color: $font-title-color;
   height: 100%;
+}
+
+.container {
+  display: $display-content;
+  justify-content: center;
 }

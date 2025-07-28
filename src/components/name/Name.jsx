@@ -1,13 +1,13 @@
 import * as React from "react";
-import background from "../../images/background.jpg";
-import "./style.css";
+import ImageBackground from "../imageBackground/imageBackground";
+import "./style.scss";
 
 const Name = () => {
   return (
     <main className="ContainerName" id="name">
-      {/* <img src={background} alt="" className="ContainerName__background" /> */}
-      <section className="containerName___elements">
-        <h1 className="ContainerName__Yula">Yula</h1>
+      <section>
+        <h1 className="containerName___elements">Hi my name is Yulany</h1>
+        <ImageBackground />
       </section>
     </main>
   );
