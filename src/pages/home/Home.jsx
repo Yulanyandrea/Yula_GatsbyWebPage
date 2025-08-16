@@ -10,8 +10,9 @@ const Home = () => {
   return (
     <section className="container">
       <Header className="buttonsContainer" />
-      <Background />
+      {/* <Background /> */}
       <Name />
+      <SectionTwo />
     </section>
   );
 };

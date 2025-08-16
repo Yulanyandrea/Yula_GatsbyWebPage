@@ -14,9 +14,9 @@ const SectionTwo = () => {
           Javascript software developer. I love turning ideas into web
           applications. Besides, I think that music can be turned into great
           applications to converge art and technology. Usually, I develop in
-          React, Gatsby, Typescript Express, GraphQl, Mongo DB and Pure data.
+          React, Gatsby, Typescript Express, GraphQl, and Mongo DB.
         </p>
-        <img src={yula} alt="" className="sectionTwo__profilePicture" />
+        {/* <img src={yula} alt="" className="sectionTwo__profilePicture" /> */}
         <section className="sectionTwo__socialMedia">
           <a
             href="https://www.linkedin.com/in/yulanymunevar/"
