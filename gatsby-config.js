@@ -1,6 +1,9 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
+require("dotenv").config();
+
 module.exports = {
   siteMetadata: {
     title: `YulaWebPage`,
@@ -12,6 +15,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sass",
+    "gatsby-plugin-env-variables",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -19,6 +23,15 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+
+    {
+      resolve: `gatsby-source-mongodb`,
+      options: {
+        dbName: `projects`,
+        connectionString: process.env.MONGODB_URI,
+        collection: ["work"],
+      },
     },
   ],
 };

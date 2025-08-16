@@ -41,6 +41,7 @@ const SectionTwo = () => {
             />
           </a>
         </section>
+        <h2 className="sectionTwo__title">Software development</h2>
       </section>
     </main>
   );
