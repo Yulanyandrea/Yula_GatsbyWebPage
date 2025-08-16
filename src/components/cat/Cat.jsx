@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./style.scss";
 
-const ImageBackground = () => {
+const Cat = () => {
   return (
     <div class="containerCat">
       <div class="face">
@@ -17,4 +17,4 @@ const ImageBackground = () => {
   );
 };
 
-export default ImageBackground;
+export default Cat;

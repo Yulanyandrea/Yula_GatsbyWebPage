@@ -1,5 +1,4 @@
 import * as React from "react";
-import yula from "../../images/yulaPhoto.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./style.scss";

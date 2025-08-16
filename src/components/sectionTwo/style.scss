@@ -2,9 +2,10 @@ $component-position: absolute;
 $component-direction: 100%;
 $font-title-size: 30px;
 $font-size-title: 50px;
+$display-grid: flex;
 
 .sectionTwo {
-  display: flex;
+  display: grid;
   flex-direction: column;
   position: $component-position;
   top: $component-direction;
@@ -14,4 +15,10 @@ $font-size-title: 50px;
 .sectionTwo__about {
   font-size: $font-size-title;
   font-weight: 700;
+}
+
+.sectionTwo__socialMedia {
+  display: $display-grid;
+  justify-content: center;
+  padding: 20px;
 }
