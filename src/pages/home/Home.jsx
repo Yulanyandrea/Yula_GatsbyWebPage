@@ -7,7 +7,10 @@ import SectionTwo from "../../components/sectionTwo/SectionTwo";
 import SectionThree from "../../components/sectionThree/SectionThree";
 
 const Home = () => {
-  console.log("El valor de la variable de entorno es:", process.env.TEST);
+  console.log(
+    "El valor de la variable de entorno es:",
+    process.env.MONGODB_URI
+  );
   return (
     <section className="container">
       <Header className="buttonsContainer" />
