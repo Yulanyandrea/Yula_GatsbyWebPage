@@ -41,7 +41,7 @@ const SectionFive = () => {
   return (
     <form
       name="contact"
-      classnameName="sectionFive"
+      className="sectionFive"
       id="ContactMe"
       method="post"
       action="/thanks/"
@@ -51,48 +51,48 @@ const SectionFive = () => {
     >
       <input type="hidden" name="form-name" value="contact" />
 
-      <h1 classnameName="sectionFive__title">Contact Me</h1>
-      <p classnameName="sectionFive__info">
+      <h1 className="sectionFive__title">Contact Me</h1>
+      <p className="sectionFive__info">
         Please fill you information if you want to ask or say something
       </p>
-      <section classnameName="sectionFive__message">
-        <label htmlFor="myInput" classnameName="sectionFive__message--label">
+      <section className="sectionFive__message">
+        <label htmlFor="myInput" className="sectionFive__message--label">
           Full name
         </label>
         <input
           type="text"
           name="fullname"
-          classnameName="sectionFive__fullname"
+          className="sectionFive__fullname"
           onChange={handleInputChange}
         />
-        <label htmlFor="myInput" classnameName="sectionFive__message--label">
+        <label htmlFor="myInput" className="sectionFive__message--label">
           Email
         </label>
         <input
           type="email"
           name="email"
-          classnameName="sectionFive__fullname"
+          className="sectionFive__fullname"
           onChange={handleInputChange}
         />
-        <label htmlFor="myInput" classnameName="sectionFive__message--label">
+        <label htmlFor="myInput" className="sectionFive__message--label">
           Subject
         </label>
         <input
           type="text"
           name="subject"
-          classnameName="sectionFive__fullname"
+          className="sectionFive__fullname"
           onChange={handleInputChange}
         />
-        <label htmlFor="myInput" classnameName="sectionFive__message--label">
+        <label htmlFor="myInput" className="sectionFive__message--label">
           Your message
         </label>
         <textarea
           type="text"
           name="message"
-          classnameName="sectionFive__message--input"
+          className="sectionFive__message--input"
           onChange={handleInputChange}
         />
-        <button type="submit" classnameName="sectionFive__btn">
+        <button type="submit" className="sectionFive__btn">
           Send
         </button>
       </section>

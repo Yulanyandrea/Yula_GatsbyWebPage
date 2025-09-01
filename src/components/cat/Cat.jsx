@@ -3,16 +3,16 @@ import "./style.scss";
 
 const Cat = () => {
   return (
-    <div classname="containerCat">
-      <div classname="face">
-        <div classname="ear-l"></div>
-        <div classname="ear-r"></div>
+    <div className="containerCat">
+      <div className="face">
+        <div className="ear-l"></div>
+        <div className="ear-r"></div>
       </div>
-      <div classname="hand-l"></div>
-      <div classname="hand-r"></div>
-      <div classname="leg-l"></div>
-      <div classname="leg-r"></div>
-      <div classname="music-note"></div>
+      <div className="hand-l"></div>
+      <div className="hand-r"></div>
+      <div className="leg-l"></div>
+      <div className="leg-r"></div>
+      <div className="music-note"></div>
     </div>
   );
 };

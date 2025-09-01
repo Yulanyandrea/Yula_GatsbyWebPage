@@ -38,17 +38,17 @@ const Header = () => {
     }
   };
   return (
-    <nav classnameName="containerHeader">
-      <button classnameName="containerHeader__home" onClick={handleAbout}>
+    <nav className="containerHeader">
+      <button className="containerHeader__home" onClick={handleAbout}>
         About
       </button>
-      <button classnameName="containerHeader__home" onClick={handleSoftware}>
+      <button className="containerHeader__home" onClick={handleSoftware}>
         Software development
       </button>
-      <button classnameName="containerHeader__home" onClick={handleSound}>
+      <button className="containerHeader__home" onClick={handleSound}>
         Sound Design
       </button>
-      <button classnameName="containerHeader__home" onClick={handleContact}>
+      <button className="containerHeader__home" onClick={handleContact}>
         Contact
       </button>
     </nav>
