@@ -2,8 +2,6 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 
-require("dotenv").config();
-
 module.exports = {
   siteMetadata: {
     title: `YulaWebPage`,

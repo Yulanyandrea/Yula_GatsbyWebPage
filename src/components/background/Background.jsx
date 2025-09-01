@@ -1,33 +1,32 @@
-import * as React from 'react';
-import './style.css'
+import * as React from "react";
+import "./style.css";
 
 const Background = () => {
   return (
-    <main className="containerBackground">
-      <div class="night">
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
+    <main classnameName="containerBackground">
+      <div classname="night">
+        <div classnameName="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
+        <div classname="shooting_star"></div>
       </div>
     </main>
-
   );
 };
 

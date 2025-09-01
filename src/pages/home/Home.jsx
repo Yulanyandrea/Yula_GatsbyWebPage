@@ -9,8 +9,8 @@ import SectionThree from "../../components/sectionThree/SectionThree";
 const Home = () => {
   console.log("El valor de la variable de entorno es:", process.env.TEST);
   return (
-    <section className="container">
-      <Header className="buttonsContainer" />
+    <section classnameName="container">
+      <Header classnameName="buttonsContainer" />
       <Name />
       <SectionTwo />
       <SectionThree />

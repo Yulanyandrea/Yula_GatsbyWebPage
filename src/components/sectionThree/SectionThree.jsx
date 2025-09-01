@@ -24,12 +24,12 @@ const SectionThree = () => {
   // };
 
   return (
-    <main className="containerSectionThree" id="SoftwareDevelopment">
-      {/* <p className="containerSectionThree__paragraph">Here you will my work</p>
-      <section className="containerSectionThree__work">
-        <section className="containerSectionThree__work--nft">
-          <img src={nft} alt="" className="containerSeectionThree__work--img" />
-          <p className="containerSectionThree__work--nftText">
+    <main classnameName="containerSectionThree" id="SoftwareDevelopment">
+      {/* <p classnameName="containerSectionThree__paragraph">Here you will my work</p>
+      <section classnameName="containerSectionThree__work">
+        <section classnameName="containerSectionThree__work--nft">
+          <img src={nft} alt="" classnameName="containerSeectionThree__work--img" />
+          <p classnameName="containerSectionThree__work--nftText">
             Nuron is a web application to create and sell NFT around the world.
             People can create works of art and sell them at virtual auction or
             direct payment.
@@ -39,45 +39,45 @@ const SectionThree = () => {
             target="_blank"
             rel="noopener noreferrer"
           ></a>
-          <button type="submit" className="containerSectionThree__work--button">
+          <button type="submit" classnameName="containerSectionThree__work--button">
             Web site
           </button>
         </section> */}
 
-      {/* <section className="containerSectionThree__work--nft">
+      {/* <section classnameName="containerSectionThree__work--nft">
           <img
             src={jyk}
             alt=""
-            className="containerSeectionThree__work--image"
+            classnameName="containerSeectionThree__work--image"
           />
-          <p className="containerSectionThree__work--nftText">
+          <p classnameName="containerSectionThree__work--nftText">
             JyK Sports is a shoes store located in Bogotá Colombia . The app
             organize all products from China by reference, color, and size.
             Also, generate a QR code to identify all products.
           </p>
           <button
             type="submit"
-            className="containerSectionThree__work--button"
+            classnameName="containerSectionThree__work--button"
             onClick={handleClickJyk}
           >
             Web site
           </button>
         </section>
 
-        <section className="containerSectionThree__work--nft">
+        <section classnameName="containerSectionThree__work--nft">
           <img
             src={amasa}
             alt=""
-            className="containerSeectionThree__work--image"
+            classnameName="containerSeectionThree__work--image"
           />
-          <p className="containerSectionThree__work--nftText">
+          <p classnameName="containerSectionThree__work--nftText">
             Amasa milhojeria is a store located in Medellín Colombia to order a
             dessert called Milhojas. This project will provide an eassy way to
             customers to take their order.
           </p>
           <button
             type="submit"
-            className="containerSectionThree__work--button"
+            classnameName="containerSectionThree__work--button"
             onClick={handleClickAmasa}
           >
             Web site
