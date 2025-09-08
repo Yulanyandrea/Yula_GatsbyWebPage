@@ -11,3 +11,16 @@ On the other hand, this project is connected to Netlify using forms technology t
 ![Captura de pantalla 2023-04-24 180141](https://user-images.githubusercontent.com/79812118/234134184-17cdba2c-11e2-4f74-923d-d5b8f83c2184.jpg)
 
 Useful links: (https://t-helaysa.com/blog/cannot-connect-mongodb-atlas-inside-gatsby/)
+
+If you want to call the MongoDB using GraphQL please use the following query:
+
+query MyQuery{
+allMongodbProjectsWork{
+edges {
+node {
+id
+name
+}
+}
+}
+}
