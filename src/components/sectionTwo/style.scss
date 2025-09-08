@@ -1,2 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap");
+$component-position: absolute;
+$component-direction: 100%;
+$font-title-size: 30px;
+$font-size-title: 50px;
+$display-grid: flex;
+
+.sectionTwo {
+  display: grid;
+  flex-direction: column;
+  position: $component-position;
+  top: $component-direction;
+  font-size: $font-title-size;
+}
+
+.sectionTwo__about {
+  font-size: $font-size-title;
+  font-weight: 700;
+}
+
+.sectionTwo__socialMedia {
+  display: $display-grid;
+  justify-content: center;
+  padding: 20px;
+}
+
+.sectionTwo__title {
+  font-size: $font-size-title;
+}

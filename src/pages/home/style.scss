@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Comforter&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Doto:wght@100..900&family=Shadows+Into+Light&display=swap");
+//@import url("https://fonts.googleapis.com/css2?family=Comforter&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Doto:wght@100..900&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dosis:wght@200..800&family=Doto:wght@100..900&family=Shadows+Into+Light&display=swap");
 
-$font-title: "Comforter", cursive;
+$font-title: "Shadows Into Light", cursive;
 $primary-color: #131415;
 $font-title-color: #f7ebeb;
 $display-content: column;
@@ -14,6 +15,7 @@ body {
   background-color: $primary-color;
   //height: 100vh;
   font: 100% $font-title;
+
   color: $font-title-color;
   //width: 100vh;
 }

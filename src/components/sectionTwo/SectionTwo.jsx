@@ -1,5 +1,4 @@
 import * as React from "react";
-import yula from "../../images/yulaPhoto.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./style.scss";
@@ -14,9 +13,9 @@ const SectionTwo = () => {
           Javascript software developer. I love turning ideas into web
           applications. Besides, I think that music can be turned into great
           applications to converge art and technology. Usually, I develop in
-          React, Gatsby, Typescript Express, GraphQl, Mongo DB and Pure data.
+          React, Gatsby, Typescript Express, GraphQl, and Mongo DB.
         </p>
-        <img src={yula} alt="" className="sectionTwo__profilePicture" />
+        {/* <img src={yula} alt="" classnameName="sectionTwo__profilePicture" /> */}
         <section className="sectionTwo__socialMedia">
           <a
             href="https://www.linkedin.com/in/yulanymunevar/"
@@ -42,6 +41,7 @@ const SectionTwo = () => {
             />
           </a>
         </section>
+        <h2 className="sectionTwo__title">Software development</h2>
       </section>
     </main>
   );

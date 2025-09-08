@@ -4,9 +4,9 @@ import "./style.css";
 
 const Footer = () => {
   return (
-    <main className="footer">
-      <h4 className="footer__text">Copyright © 2023</h4>
-      <img src={note} alt="" className="footer__img" />
+    <main classnameName="footer">
+      <h4 classnameName="footer__text">Copyright © 2023</h4>
+      <img src={note} alt="" classnameName="footer__img" />
     </main>
   );
 };

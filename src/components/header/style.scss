@@ -7,36 +7,62 @@ $color-background: linear-gradient(
 $color-font: white;
 $margin-elements: 10px;
 $border-button: 20px;
-$display-section: flex;
-$display-grid: 1fr 1fr 1fr;
-$button-border: none;
-$button-width: 100%;
-$content-aligment: space-evenly;
-$button-high: fit-content;
+$display-section: flex; // Para el nav
+$display-grid: 1fr 1fr 1fr; // Sin usar aquí
+$button-border: none; // Sin usar, ya que usaremos border: none; directamente
+$button-width-desktop: auto; // Cambiado a 'auto' para que los botones se ajusten a su contenido
+$content-aligment-nav: space-evenly; // Para el nav, no para el botón
+$button-high: fit-content; // Para el botón
 
+// --- NAV ---
 nav {
+  // Propiedades para hacer el nav "sticky"
+  position: fixed; // Permanece fijo en la ventana
+  top: 0; // Se pega a la parte superior
+  left: 0; // Se pega a la izquierda (para ancho completo)
+  width: 100%; // Ocupa todo el ancho de la pantalla
+  z-index: 1000; // Asegura que esté por encima de otros elementos (ajusta según necesites)
+  background: $color-background; // El degradado como fondo del nav
+  padding: $margin-elements 0; // Un poco de padding arriba y abajo para el nav
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); // Sombra sutil para destacarlo
+
+  // Propiedades Flexbox para el contenedor del nav (para alinear los botones)
+  display: $display-section; // Hace que los botones se alineen horizontalmente
+  justify-content: $content-aligment-nav; // Distribuye los botones equitativamente
+  align-items: center; // Centra los botones verticalmente
+  border-radius: $border-button; // Esto aplicaría al nav si no fuera 100% ancho. Considera si lo quieres aquí.
+  // Si quieres que el nav tenga un border-radius visible, el width no debería ser 100%
+  // o deberías aplicar el radius a un contenedor interno o usar overflow: hidden.
+}
+
+// --- BOTONES DENTRO DEL NAV ---
+nav button {
+  background-color: transparent; // Para que el degradado del nav sea visible, o define un color aquí
+  color: $color-font;
+  padding: $margin-elements;
   border-radius: $border-button;
-  display: $display-section;
-  width: 98%;
+  border: 2px solid $color-font; // Un borde visible para el botón
+  cursor: pointer; // Indica que es clickable
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease; // Transición suave para el hover
+}
+nav button:hover {
+  background-color: #7d45b0; // Un color de fondo para el hover
+  border-color: #7d45b0; // Cambia el color del borde también
+  color: lighten(
+    $color-font,
+    10%
+  ); // Aclara el color de la fuente --- DEPRECATION
+}
 
-  button {
-    background: $color-background;
-    color: $color-font;
-    padding: $margin-elements;
-    border-radius: $border-button;
-    border: none;
-    width: $button-width;
-    justify-content: $content-aligment;
-    height: $button-high;
-
-    &:hover {
-      background-color: #7d45b0;
-    }
+// --- MEDIA QUERY PARA PANTALLAS MÁS GRANDES ---
+@media (min-width: 1440px) {
+  nav button {
+    width: $button-width-desktop; // Los botones se ajustan a su contenido
+    // O podrías darles un ancho fijo, ej: width: 150px;
   }
 }
 
-@media (min-width: 1440px) {
-  nav {
-    width: $button-width;
-  }
+body {
+  padding-top: 60px; /* Ajusta este valor según la altura real de tu nav */
 }
