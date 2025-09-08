@@ -24,7 +24,7 @@ const SectionThree = () => {
   // };
 
   return (
-    <main classnameName="containerSectionThree" id="SoftwareDevelopment">
+    <main className="containerSectionThree" id="SoftwareDevelopment">
       {/* <p classnameName="containerSectionThree__paragraph">Here you will my work</p>
       <section classnameName="containerSectionThree__work">
         <section classnameName="containerSectionThree__work--nft">

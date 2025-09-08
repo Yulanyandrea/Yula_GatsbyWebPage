@@ -2,6 +2,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     title: `YulaWebPage`,
@@ -22,13 +26,16 @@ module.exports = {
       },
       __key: "images",
     },
-
     {
       resolve: `gatsby-source-mongodb`,
       options: {
+        connectionString: process.env.GATSBY_API_URL,
         dbName: `projects`,
-        connectionString: process.env.MONGODB_URI,
-        collection: ["work"],
+        collection: `work`,
+        server: {
+          address: "ac-4bdar2d-shard-00-02.ypklcwn.mongodb.net",
+          port: 27017,
+        },
       },
     },
   ],

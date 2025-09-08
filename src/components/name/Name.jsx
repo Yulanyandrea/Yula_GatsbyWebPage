@@ -4,9 +4,9 @@ import "./style.scss";
 
 const Name = () => {
   return (
-    <main classnameName="ContainerName" id="name">
+    <main className="ContainerName" id="name">
       <section>
-        <h1 classnameName="containerName___elements">Hi my name is Yulany</h1>
+        <h1 className="containerName___elements">Hi my name is Yulany</h1>
         <Cat />
       </section>
     </main>

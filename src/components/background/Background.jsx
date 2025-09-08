@@ -3,28 +3,28 @@ import "./style.css";
 
 const Background = () => {
   return (
-    <main classnameName="containerBackground">
-      <div classname="night">
-        <div classnameName="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
+    <main className="containerBackground">
+      <div className="night">
         <div className="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
-        <div classname="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
+        <div className="shooting_star"></div>
       </div>
     </main>
   );
