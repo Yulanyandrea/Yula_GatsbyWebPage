@@ -27,13 +27,4 @@ allMongodbProjectsWork{
 }
 ```
 
-query MyQuery{
-allMongodbProjectsWork{
-edges {
-node {
-id
-name
-}
-}
-}
-}
+
