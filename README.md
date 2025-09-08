@@ -14,6 +14,19 @@ Useful links: (https://t-helaysa.com/blog/cannot-connect-mongodb-atlas-inside-ga
 
 If you want to call the MongoDB using GraphQL please use the following query:
 
+```bash
+query MyQuery{
+allMongodbProjectsWork{
+  edges {
+    node {
+      id
+      name
+        }
+      }
+  }
+}
+```
+
 query MyQuery{
 allMongodbProjectsWork{
 edges {
