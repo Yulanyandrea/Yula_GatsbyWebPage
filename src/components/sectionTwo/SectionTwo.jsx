@@ -15,7 +15,6 @@ const SectionTwo = () => {
           applications to converge art and technology. Usually, I develop in
           React, Gatsby, Typescript Express, GraphQl, and Mongo DB.
         </p>
-        {/* <img src={yula} alt="" classnameName="sectionTwo__profilePicture" /> */}
         <section className="sectionTwo__socialMedia">
           <a
             href="https://www.linkedin.com/in/yulanymunevar/"
