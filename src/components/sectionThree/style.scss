@@ -1,5 +1,14 @@
 $fontSize: 20px;
+$distance: 1500px;
+$display: flex;
+$flexDirection: column;
+$position: relative;
 
-.containerSectionThree__title {
+.containerSectionThree {
+  display: $display;
+  top: $distance;
+  flex-direction: $flexDirection;
+  position: $position;
   font-size: $fontSize;
+  color: azure;
 }
