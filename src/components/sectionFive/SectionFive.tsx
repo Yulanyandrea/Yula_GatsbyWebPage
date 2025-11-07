@@ -10,7 +10,7 @@ const SectionFive = () => {
     mensaje: "",
   });
 
-  function encode(data) {
+  function encode(data: any) {
     return Object.keys(data)
       .map(
         (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
@@ -18,12 +18,12 @@ const SectionFive = () => {
       .join("&");
   }
 
-  const handleInputChange = ({ target }) => {
+  const handleInputChange = ({ target }: any) => {
     const key = target.name;
     setFormData({ ...formData, [key]: target.value });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: any) => {
     event.preventDefault();
     const form = event.target;
     fetch("/", {
@@ -87,7 +87,6 @@ const SectionFive = () => {
           Your message
         </label>
         <textarea
-          type="text"
           name="message"
           className="sectionFive__message--input"
           onChange={handleInputChange}

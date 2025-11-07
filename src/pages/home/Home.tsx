@@ -13,7 +13,7 @@ const Home = () => {
   );
   return (
     <section className="container">
-      <Header className="buttonsContainer" />
+      <Header />
       <Name />
       <SectionTwo />
       <SectionThree />

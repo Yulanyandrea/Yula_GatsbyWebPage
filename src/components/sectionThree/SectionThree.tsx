@@ -21,7 +21,7 @@ const SectionThree = () => {
   const nodes = data.allMongodbProjectsWork.edges;
   return (
     <main className="containerSectionThree" id="SoftwareDevelopment">
-      {nodes.map(({ node }) => {
+      {nodes.map(({ node }: any) => {
         console.log(node);
         return (
           <div key={node.id}>
