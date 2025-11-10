@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
 import Home from "./home/Home";
-import icon from "../images/icon.ico";
+//import icon from "./public/images//";
 import { unset } from "lodash";
 
 const pageStyles = {
@@ -12,8 +12,8 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <Helmet>
-        <link rel="icon" href={icon} type="image/x-icon" />
-        <link rel="shortcut icon" href={icon} type="image/x-icon" />
+        {/* <link rel="icon" href={icon} type="image/x-icon" />
+        <link rel="shortcut icon" href={icon} type="image/x-icon" /> */}
       </Helmet>
 
       <Home />
