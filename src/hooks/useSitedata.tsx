@@ -14,6 +14,5 @@ export const useSitedata = () => {
       }
     }
   `);
-
-  return data.site.siteMetadata;
+  return data.allMongodbProjectsWork.edges;
 };

@@ -1,12 +1,11 @@
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
+import type { GatsbyConfig } from "gatsby";
+import * as dotenv from "dotenv"; // Importar dotenv
 
-require("dotenv").config({
+dotenv.config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-module.exports = {
+const config: GatsbyConfig = {
   siteMetadata: {
     title: `YulaWebPage`,
     siteUrl: `https://www.yourdomain.tld`,
@@ -32,11 +31,9 @@ module.exports = {
         connectionString: process.env.GATSBY_API_URL,
         dbName: `projects`,
         collection: `work`,
-        server: {
-          address: "ac-4bdar2d-shard-00-02.ypklcwn.mongodb.net",
-          port: 27017,
-        },
       },
     },
   ],
 };
+
+export default config;
