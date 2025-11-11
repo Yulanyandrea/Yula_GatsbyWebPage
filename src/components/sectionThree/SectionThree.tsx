@@ -1,4 +1,5 @@
 import * as React from "react";
+import { IKImage } from "imagekitio-react";
 
 import { useStaticQuery, graphql } from "gatsby";
 import "./style.scss";
@@ -27,7 +28,14 @@ const SectionThree = () => {
           <div key={node.id}>
             <h2 className="containerSectionThree__title">{node.name}</h2>
             <p>{node.about}</p>
-            <img src={node.image} alt="" />
+
+            <IKImage
+              urlEndpoint={process.env.IMAGEKIT}
+              path="/logo.png" // o `src` si es URL completa
+              width="500"
+              height="500"
+              alt={node.name}
+            />
           </div>
         );
       })}
