@@ -9,6 +9,8 @@ export const useSitedata = () => {
             id
             name
             about
+            image
+            myLink
           }
         }
       }
