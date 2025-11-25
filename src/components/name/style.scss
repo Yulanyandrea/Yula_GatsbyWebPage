@@ -12,6 +12,10 @@ $breakpoint-lg: 1200px;
     position: relative;
     top: 123px;
   }
+  h4 {
+    font-size: 15px;
+    padding: 50px;
+  }
   @media (max-width: $breakpoint-small) {
     h1 {
       font-size: 60px;

@@ -1,13 +1,13 @@
-$component-position: absolute;
-$component-direction: 100%;
+$component-position: relative;
+$component-direction: 850px;
 $font-title-size: 30px;
 $font-size-title: 50px;
 $font-weight-param: bold;
 $display-box: flex;
 
 // break line points
-$breakpoint-small: 600px;
-$breakpoint-medium: 900x;
+$breakpoint-small: 1200px;
+//$breakpoint-medium: 900x;
 $breakpoint-lg: 1200px;
 
 .sectionTwo {
@@ -16,11 +16,21 @@ $breakpoint-lg: 1200px;
   position: $component-position;
   top: $component-direction;
   font-size: $font-title-size;
+
   @media (max-width: $breakpoint-small) {
-    top: 800px;
-    position: relative;
     background-color: #cc7ab0;
     padding: 37px;
+    top: 800px;
+  }
+}
+
+.sectionTwo__paragraph {
+  width: 100%;
+  @media (min-width: $breakpoint-lg) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 40px;
   }
 }
 
@@ -43,4 +53,9 @@ $breakpoint-lg: 1200px;
 .sectionTwo__image {
   width: 100%;
   border-radius: 50%;
+  @media (min-width: $breakpoint-lg) {
+    width: 43%;
+    height: 43%;
+    padding-right: 20px;
+  }
 }

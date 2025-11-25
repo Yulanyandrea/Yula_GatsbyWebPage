@@ -22,12 +22,12 @@ const Header = ({ scrollToRef, refs }: HeaderProps) => {
       >
         Software development
       </button>
-      {/* <button
+      <button
         className="containerHeader__home"
-        onClick={() => scrollToRef(refs.SectionThreeRef)} //update
+        onClick={() => scrollToRef(refs.soundRef)} //update
       >
         Sound Design
-      </button> */}
+      </button>
       <button
         className="containerHeader__home"
         onClick={() => scrollToRef(refs.contactRef)} //update

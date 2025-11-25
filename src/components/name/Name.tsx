@@ -10,7 +10,14 @@ const Name = () => {
           Where creativity meets code
         </h1>
         <h4 className="containerName___elements-sub">
-          believe in the power of technology to bring ideas to life
+          "If what’s coming unsettles you, don’t let the world wait for your
+          desire; your freedom was a longing yesterday—today go out and hunt
+          what you want. In your arrows fear dies, cowards flee, unwilling;
+          don't fall, tamed by anyone, keep watch over your moon in the sky.
+          Don’t miss the sun for being a traveler—its fragility does not hide;
+          dance, breathe, in your forest… run, chase your dreams! If I wait for
+          you every night, let the world pursue your life, for its message is
+          not forgotten; you can —even when you doubt—" Valeria Dos Santos
         </h4>
         <Cat />
       </section>
