@@ -1,5 +1,5 @@
 $component-position: relative;
-$component-direction: 800px;
+$component-direction: 1000px;
 $font-title-size: 30px;
 $font-size-title: 50px;
 $font-weight-param: bold;
@@ -20,6 +20,7 @@ $breakpoint-lg: 1200px;
   @media (max-width: $breakpoint-small) {
     background-color: #cc7ab0;
     padding: 37px;
+    top: 800px;
   }
 }
 

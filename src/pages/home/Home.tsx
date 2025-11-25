@@ -9,17 +9,20 @@ import { useRef } from "react";
 export type SectionRefs = {
   AboutRef: React.RefObject<HTMLElement | null>;
   WorkRef: React.RefObject<HTMLElement | null>;
+  soundRef: React.RefObject<HTMLElement | null>;
   contactRef: React.RefObject<HTMLElement | null>;
 };
 
 const Home = () => {
   const AboutRef = useRef<HTMLElement | null>(null);
   const WorkRef = useRef<HTMLElement | null>(null);
+  const soundRef = useRef<HTMLElement | null>(null);
   const contactRef = useRef<HTMLElement | null>(null);
 
   const refs: SectionRefs = {
     AboutRef,
     WorkRef,
+    soundRef,
     contactRef,
   };
 

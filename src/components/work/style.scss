@@ -1,5 +1,5 @@
 $fontSize: 20px;
-$distance: 1600px;
+$distance: 1100px;
 $display: flex;
 $flexDirection: column;
 $position: relative;
@@ -21,7 +21,7 @@ $breakpoint-lg: 1200px;
   color: azure;
   font-weight: regular;
   font-style: normal;
-  top: 800px;
+  top: $distance;
   @media (max-width: $breakpoint-small) {
     top: 850px;
     width: 100%;
