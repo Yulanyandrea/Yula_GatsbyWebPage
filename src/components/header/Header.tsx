@@ -1,54 +1,37 @@
 import * as React from "react";
-import note from "../../images/note.png";
-import music from "../../images/music.png";
+import { SectionRefs } from "../../pages/home/Home";
 import "./style.scss";
 
-const Header = () => {
-  const handleHome = () => {
-    scrollToSection("#name");
-  };
+type HeaderProps = {
+  scrollToRef: (ref: React.RefObject<HTMLElement | null>) => void;
+  refs: SectionRefs;
+};
 
-  const handleAbout = () => {
-    scrollToSection("#about");
-    // sectionTwo
-  };
-
-  const handleSoftware = () => {
-    scrollToSection("#SoftwareDevelopment");
-    //sectionThree
-  };
-
-  const handleSound = () => {
-    scrollToSection("#SoundDesign");
-    //sectionFour
-  };
-
-  const handleContact = () => {
-    scrollToSection("#ContactMe");
-    //sectionFive
-  };
-
-  const scrollToSection = (sectionId) => {
-    const target = document.querySelector(sectionId);
-    if (target) {
-      window.scrollTo({
-        top: target.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  };
+const Header = ({ scrollToRef, refs }: HeaderProps) => {
   return (
     <nav className="containerHeader">
-      <button className="containerHeader__home" onClick={handleAbout}>
+      <button
+        className="containerHeader__home"
+        onClick={() => scrollToRef(refs.AboutRef)} //about
+      >
         About
       </button>
-      <button className="containerHeader__home" onClick={handleSoftware}>
+      <button
+        className="containerHeader__home"
+        onClick={() => scrollToRef(refs.WorkRef)}
+      >
         Software development
       </button>
-      <button className="containerHeader__home" onClick={handleSound}>
+      <button
+        className="containerHeader__home"
+        onClick={() => scrollToRef(refs.soundRef)} //update
+      >
         Sound Design
       </button>
-      <button className="containerHeader__home" onClick={handleContact}>
+      <button
+        className="containerHeader__home"
+        onClick={() => scrollToRef(refs.contactRef)} //update
+      >
         Contact
       </button>
     </nav>

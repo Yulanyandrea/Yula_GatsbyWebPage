@@ -9,11 +9,13 @@ export const useSitedata = () => {
             id
             name
             about
+            image
+            myLink
+            backgroundColor
           }
         }
       }
     }
   `);
-
-  return data.site.siteMetadata;
+  return data.allMongodbProjectsWork.edges;
 };
