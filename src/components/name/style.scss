@@ -1,22 +1,33 @@
-.containerName___elements {
+// break line points
+$breakpoint-small: 600px;
+$breakpoint-medium: 900x;
+$breakpoint-lg: 1200px;
+
+.ContainerName {
   display: flex;
   justify-content: center;
+
+  h1,
+  h4 {
+    position: relative;
+    top: 123px;
+  }
+  @media (max-width: $breakpoint-small) {
+    h1 {
+      font-size: 60px;
+    }
+  }
+}
+
+.containerName___elements {
   font-size: 64px;
   animation: bounce 1s infinite alternate;
-  position: relative;
-  top: 123px;
+}
+
+.containerName___elements-sub {
+  font-size: 25px;
 }
 
 .containerName___elements:hover {
   color: pink;
 }
-
-// @keyframes bounce {
-//   0%,
-//   100% {
-//     transform: translateY(0); /* Start and end at the base position */
-//   }
-//   50% {
-//     transform: translateY(-50px); /* Move upwards for the bounce peak */
-//   }
-//}

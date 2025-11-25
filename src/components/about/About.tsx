@@ -3,17 +3,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./style.scss";
 
-const SectionTwo = () => {
+const About = () => {
   return (
     <main className="sectionTwo" id="about">
       <h1 className="sectionTwo__about">About Me</h1>
       <section className="sectionTwo__paragraph">
         <p className="sectionTwo__paragraph--text">
-          Hellooooo! I'm Yulany and I'm a sound engineer and fullstack
-          Javascript software developer. I love turning ideas into web
-          applications. Besides, I think that music can be turned into great
-          applications to converge art and technology. Usually, I develop in
-          React, Gatsby, Typescript Express, GraphQl, and Mongo DB.
+          Hello! I'm Yulany, a passionate Sound Engineer and Full-Stack
+          JavaScript Developer. I enjoy transforming ideas into dynamic web
+          applications. With a strong belief that music can be seamlessly
+          integrated into technology, I focus on creating applications that
+          bridge the gap between art and innovation. I specialize in React,
+          Gatsby, TypeScript, Express, GraphQL, and MongoDB, and I love bringing
+          creative solutions to life through code.
         </p>
         <section className="sectionTwo__socialMedia">
           <a
@@ -40,10 +42,10 @@ const SectionTwo = () => {
             />
           </a>
         </section>
-        <h2 className="sectionTwo__title">Software development</h2>
+        <img className="sectionTwo__image" src="/images/photo.jpg" alt="" />
       </section>
     </main>
   );
 };
 
-export default SectionTwo;
+export default About;

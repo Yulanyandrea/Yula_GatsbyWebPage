@@ -1,0 +1,49 @@
+$fontSize: 20px;
+$distance: 1600px;
+$display: flex;
+$flexDirection: column;
+$position: relative;
+$fontTitle: 40px;
+$border: 50%;
+$background: rgb(119, 74, 119);
+
+// break line points
+$breakpoint-small: 600px;
+$breakpoint-medium: 900x;
+$breakpoint-lg: 1200px;
+
+.containerSectionThree {
+  display: $display;
+  top: $distance;
+  flex-direction: $flexDirection;
+  position: $position;
+  font-size: $fontSize;
+  color: azure;
+  font-weight: regular;
+  font-style: normal;
+
+  @media (max-width: $breakpoint-small) {
+    top: 850px;
+    width: 100%;
+    padding: 45px;
+    padding-left: 150px;
+    background-color: rgb(176, 137, 213);
+  }
+
+  @media (max-width: $breakpoint-medium) {
+  }
+}
+
+.containerSectionThree_main {
+  background-color: $background;
+}
+.containerSectionThree__title {
+  font-size: $fontTitle;
+}
+
+.containerSectionThree__about {
+}
+
+.containerSectionThree__image {
+  border-radius: $border;
+}
