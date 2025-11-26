@@ -17,6 +17,7 @@ const config: GatsbyConfig = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-sass",
     "gatsby-plugin-env-variables",
+
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -31,6 +32,23 @@ const config: GatsbyConfig = {
         connectionString: process.env.GATSBY_API_URL,
         dbName: `projects`,
         collection: `work`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "13053297524",
+        respectDNT: true,
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        pageTransitionDelay: 0,
+        // Defers execution of google analytics script after page load
+        defer: false,
+        // Any additional optional fields
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "https://yulany-andrea.netlify.app/",
+        // defaults to false
+        enableWebVitalsTracking: true,
       },
     },
   ],
